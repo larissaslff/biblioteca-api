@@ -9,9 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.biblioteca.biblioteca.modelo.AdvertisimentDto;
 import com.biblioteca.biblioteca.modelo.PageDecorater;
-import com.biblioteca.biblioteca.repositories.AdvertisimentRepository;
 import com.biblioteca.biblioteca.service.AdvertisimentServiceImpl;
 
 @RestController
