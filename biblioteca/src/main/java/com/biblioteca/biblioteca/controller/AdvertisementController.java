@@ -26,7 +26,7 @@ public class AdvertisementController {
                                     @RequestParam(required = false) Integer pagenumber){
 
         Pageable pagination = PageRequest.of(pagenumber, size);
-        return ResponseEntity.ok(service.findAll(pagination));
+        return ResponseEntity.ok(service.findAllBY(pagination, state, titule));
     }
 
 }
